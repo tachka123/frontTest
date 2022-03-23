@@ -1,0 +1,31 @@
+.label {
+  font-size: 20px;
+  color: grey;
+  text-transform: uppercase;
+}
+
+.labelCenter {
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.label.error {
+  color: red;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  height: 25px;
+}
+
+.container {
+  width: 356px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
