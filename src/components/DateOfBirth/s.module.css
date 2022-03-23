@@ -1,0 +1,10 @@
+.input {
+  width: 33%;
+  text-align: center;
+  height: 100%;
+}
+
+.input.err {
+  border-color: red;
+  color: red;
+}
