@@ -1,0 +1,17 @@
+.container {
+  color: grey;
+  margin: 0 auto 0 20px;
+  background: none;
+  border: none;
+  opacity: 0.7;
+  transition: ease-in-out 300ms opacity;
+  font-size: 24px;
+}
+
+.container:hover {
+  opacity: 1;
+}
+
+.container:active {
+  opacity: 0.5;
+}
