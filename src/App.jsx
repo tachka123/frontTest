@@ -1,7 +1,7 @@
-import OuterContainer from "./OuterContainer";
-import FormWrapper from "./FormWrapper";
-import Router from "./Router";
-import Header from "./Header";
+import OuterContainer from "./components/OuterContainer";
+import FormWrapper from "./components/FormWrapper";
+import Router from "./components/Router";
+import Header from "./components/Header";
 
 import "./css/normalize.css";
 
