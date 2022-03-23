@@ -1,0 +1,22 @@
+.containerItem {
+  width: 33%;
+  border: solid 1px black;
+  background: var(--barColor);
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.6;
+  transition: ease-in-out opacity 300ms;
+  font-weight: bold;
+}
+
+.containerItem:hover {
+  opacity: 1;
+}
+
+.containerItem:active {
+  opacity: 0.5;
+}
+
+.containerItem.active {
+  background: var(--mainBlue);
+}
