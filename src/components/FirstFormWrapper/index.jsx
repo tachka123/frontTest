@@ -13,9 +13,13 @@ import { AppRoutes } from "../Router";
 import { validateThunk } from "../../redux/Thunk";
 
 const firstFormTypes = {
-  email: { type: labels.email, label: "Email" },
-  password: { type: labels.password, label: "Password" },
-  repeatePassword: { type: labels.repeatePassword, label: "Repeate password" },
+  email: { type: labels.email, label: "Email", htmlType: "email" },
+  password: { type: labels.password, label: "Password", htmlType: "password" },
+  repeatePassword: {
+    type: labels.repeatePassword,
+    label: "Repeate password",
+    htmlType: "password",
+  },
 };
 
 const keys = Object.keys(firstFormTypes);
@@ -43,7 +47,7 @@ const FirstFormWrapper = ({ setVal, formValues, history, validateth }) => {
             });
           }}
           key={val}
-          type={firstFormTypes[val].type}
+          type={firstFormTypes[val].htmlType}
           label={firstFormTypes[val].label}
           error={formValues[val].error}
         />
